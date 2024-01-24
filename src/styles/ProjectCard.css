@@ -1,0 +1,72 @@
+:root {
+  --main: rgb(23, 33, 111);
+}
+.projectCard {
+  border: 1px solid rgb(255, 255, 255);
+  padding: 2rem;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  column-gap: 0.5rem;
+  /* background-color: var(--main); */
+  width: 31rem;
+}
+.imgView {
+  display: grid;
+  /* gap: 1rem; */
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  column-gap: 0.8rem;
+  align-items: center;
+}
+.projectTitle {
+  font-weight: 900;
+  font-size: 1.4rem;
+}
+.deskImg {
+  /* width: 25rem; */
+  height: 12rem;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+.mobileImg {
+  /* width: 9rem; */
+  height: 16rem;
+  border: 1px solid white;
+  grid-area: span 2;
+  border-radius: 10px;
+}
+.description {
+  font-family: monospace;
+  font-size: 1.2rem;
+}
+.languages {
+  color: yellow;
+}
+.buttonsView {
+  display: flex;
+  justify-content: space-evenly;
+}
+.code,
+.website {
+  background-color: blueviolet;
+  color: white;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6rem;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.5s;
+}
+.code:hover,
+.website:hover {
+  background-color: #646cff;
+}
+
+a {
+  text-decoration: inherit;
+}
+/* a:hover {
+  color: #535bf2;
+} */

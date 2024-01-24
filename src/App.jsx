@@ -1,9 +1,8 @@
-import reactLogo from './assets/react.svg'
-import './styles/App.css'
-import ProjectCard from './components/ProjectCard'
+import reactLogo from "./assets/react.svg";
+import "./styles/App.css";
+import Projects from "./components/Projects";
 
 export default function App() {
-
   return (
     <>
       <div>
@@ -11,9 +10,7 @@ export default function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <ProjectCard/>
+      <Projects />
     </>
-  )
+  );
 }
-
-
