@@ -11,30 +11,39 @@
   /* background-color: var(--main); */
   width: 31rem;
 }
-.imgView {
-  display: grid;
-  /* gap: 1rem; */
-  grid-template-columns: auto auto;
-  grid-template-rows: auto auto;
-  column-gap: 0.8rem;
-  align-items: center;
-}
 .projectTitle {
   font-weight: 900;
   font-size: 1.4rem;
 }
+.imgView {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  column-gap: 0.8rem;
+  align-items: center;
+  padding-bottom: 0.5rem;
+}
 .deskImg {
-  /* width: 25rem; */
   height: 12rem;
-  border: 1px solid white;
+  border: 2px solid rgb(158, 0, 237);
   border-radius: 10px;
+  /* transform: rotateX(-20deg) rotateY(7deg); */
+  transition: transform 1s ease;
+}
+.deskImg:hover {
+  transform: rotateX(0deg) rotateY(0deg) scale(1.4);
 }
 .mobileImg {
-  /* width: 9rem; */
   height: 16rem;
-  border: 1px solid white;
+  border: 2px solid rgb(158, 0, 237);
   grid-area: span 2;
   border-radius: 10px;
+  /* transform: rotateX(-20deg) rotateY(-10deg); */
+  transition: transform 1s ease;
+}
+.mobileImg:hover {
+  transform: rotateX(0deg) rotateY(0deg) scale(1.5);
+  z-index: 2;
 }
 .description {
   font-family: monospace;
@@ -58,10 +67,12 @@
   font-weight: 700;
   cursor: pointer;
   transition: background-color 0.5s;
+  transition: transform 0.5s ease, background-color 1s ease;
 }
 .code:hover,
 .website:hover {
   background-color: #646cff;
+  transform: scale(1.1);
 }
 
 a {
