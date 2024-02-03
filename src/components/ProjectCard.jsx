@@ -17,14 +17,22 @@ export default function ProjectCard({
         <img src={view} alt="pr" className="deskImg" />
       </div>
       <div className="description">{desc}</div>
-      <div className="languages">{language}</div>
-      <div className="buttonsView">
-        <a href={repo} target="_blank" rel="noreferrer">
-          <button className="code">Code</button>
-        </a>
-        <a href={website} target="_blank" rel="noreferrer">
-          <button className="website">See website</button>
-        </a>
+      <div className="squares">
+        <div className="languagesView">
+          {language.map((l, index) => {
+            return (
+              <img src={l} alt="language" className="language" key={index} />
+            );
+          })}
+        </div>
+        <div className="buttonsView">
+          <a href={repo} target="_blank" rel="noreferrer">
+            <button className="code">Code</button>
+          </a>
+          <a href={website} target="_blank" rel="noreferrer">
+            <button className="website">See website</button>
+          </a>
+        </div>
       </div>
     </article>
   );

@@ -1,9 +1,10 @@
 import info from "../projects.js";
 import ProjectCard from "./ProjectCard";
+import "../styles/Projects.css";
 
 export default function Projects() {
   return (
-    <>
+    <div className="projects">
       {info.map((project) => (
         <ProjectCard
           key={project.id}
@@ -16,6 +17,6 @@ export default function Projects() {
           website={project.website}
         />
       ))}
-    </>
+    </div>
   );
 }
