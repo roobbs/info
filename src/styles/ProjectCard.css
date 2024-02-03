@@ -119,10 +119,12 @@ a {
     font-size: 1.3rem;
   }
   .deskImg {
-    height: 9rem;
+    height: auto;
+    width: 100%;
   }
   .mobileImg {
-    height: 12rem;
+    height: auto;
+    width: 23vw;
   }
   .description {
     font-size: 1rem;
