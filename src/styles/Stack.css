@@ -6,7 +6,7 @@
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  padding: 2rem 15rem;
+  padding: 4rem 15rem;
 }
 .toolsContainer {
   display: flex;
@@ -24,4 +24,29 @@
 .toolImg:hover {
   transform: scale(1.1);
   border-color: rgb(0, 209, 213);
+}
+@media only screen and (max-width: 1000px) {
+  .tools {
+    gap: 1.5rem;
+    padding: 4rem 5rem;
+    overflow: hidden;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .tools {
+    gap: 1.5rem;
+    padding: 4rem 1.5rem;
+    overflow: hidden;
+  }
+  .tool:first-child {
+    padding: 1rem;
+  }
+  .toolsContainer {
+    gap: 1rem;
+  }
+  .toolImg {
+    height: 4rem;
+    padding: 0.4rem;
+    border: 1px solid transparent;
+  }
 }

@@ -29,3 +29,15 @@
 .react {
   animation: logo-spin infinite 15s linear;
 }
+
+@media only screen and (max-width: 800px) {
+  #root {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0rem;
+    max-width: 100vw;
+  }
+}
