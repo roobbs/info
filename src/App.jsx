@@ -1,16 +1,14 @@
-import reactLogo from "./assets/react.svg";
 import "./styles/App.css";
 import Projects from "./components/Projects";
+import Header from "./components/Header";
+import Stack from "./components/Stack";
 
 export default function App() {
   return (
     <>
-      <div>
-        <a href="https://react.dev" target="_blank" rel="noreferrer">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
+      <Header />
       <Projects />
+      <Stack />
     </>
   );
 }

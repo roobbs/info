@@ -1,8 +1,11 @@
 import info from "../projects.js";
 import ProjectCard from "./ProjectCard";
 import "../styles/Projects.css";
+import git from "../assets/git.png";
+import github from "../assets/github.png";
 
 export default function Projects() {
+  const tools = [git, github];
   return (
     <div className="projects">
       {info.map((project) => (

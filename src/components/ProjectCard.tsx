@@ -1,4 +1,15 @@
+import React from "react";
 import "../styles/ProjectCard.css";
+
+interface ProjectCardProps {
+  title: string;
+  view: string;
+  mobileView: string;
+  desc: string;
+  language: string[];
+  repo: string;
+  website: string;
+}
 
 export default function ProjectCard({
   title,
@@ -8,7 +19,7 @@ export default function ProjectCard({
   language,
   repo,
   website,
-}) {
+}: ProjectCardProps) {
   return (
     <article className="projectCard">
       <div className="imgView">
@@ -30,7 +41,7 @@ export default function ProjectCard({
             <button className="code">Code</button>
           </a>
           <a href={website} target="_blank" rel="noreferrer">
-            <button className="website">See website</button>
+            <button className="website">See Website</button>
           </a>
         </div>
       </div>

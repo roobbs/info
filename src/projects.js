@@ -1,6 +1,7 @@
 import javascript from "./assets/js.png";
 import css from "./assets/css.png";
 import react from "./assets/react.svg";
+import html from "./assets/html.png";
 
 import weather from "./images/weather.png";
 import weatherMobile from "./images/weatherMobile.jpg";
@@ -39,7 +40,7 @@ export default [
     mobileView: etchMobile,
     description:
       "This project is a browser version of a sketchpad, just a pretty neat toy for you to enjoy",
-    language: [javascript, css],
+    language: [javascript, css, html],
     repo: "https://github.com/roobbs/etch-a-sketch",
     website: "https://roobbs.github.io/etch-a-sketch/",
   },
