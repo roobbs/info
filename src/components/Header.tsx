@@ -5,13 +5,16 @@ import "../styles/Header.css";
 export default function Header() {
   return (
     <div className="header">
-      <div>
-        <a href="https://react.dev" target="_blank" rel="noreferrer">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+      <div className="headerName">
+        <img src={reactLogo} className="logo react" alt="React logo" />
+        <div className="myName">roobbs</div>
       </div>
-      <div>Header</div>
-      <div>Name</div>
+      <ul className="headerItems">
+        <li>Home</li>
+        <li>About</li>
+        <li>Projects</li>
+        <li>Contact</li>
+      </ul>
     </div>
   );
 }

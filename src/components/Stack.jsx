@@ -13,7 +13,7 @@ export default function Stack() {
   const tools = [git, github, js, react, node, html, css, mongo, npm];
   return (
     <section className="tools">
-      <div>Tools I use on my projects:</div>
+      <div>My skills and tools: </div>
       <div className="toolsContainer">
         {tools.map((tool, index) => (
           <img src={tool} className="toolImg" key={index} />

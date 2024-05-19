@@ -1,5 +1,41 @@
 .header {
+  background-color: #070c1d;
   display: flex;
+  flex: 1;
   align-items: center;
+  justify-content: space-between;
   gap: 10px;
+  border-bottom: 1px solid white;
+  padding: 5px 3rem;
+}
+.headerName {
+  display: flex;
+  gap: 1rem;
+}
+.myName {
+  color: #43ecae;
+  font-weight: 900;
+  letter-spacing: 1px;
+  font-size: 1.5rem;
+  font-family: monospace;
+}
+.headerItems {
+  display: flex;
+  gap: 2.5rem;
+  list-style: none;
+  padding-right: 2rem;
+  margin: 0;
+  padding: 0;
+}
+.headerItems li {
+  font-weight: 600;
+  transition: background-color 0.5s;
+  padding: 5px;
+  border-radius: 8px;
+}
+
+.headerItems li:hover {
+  background-color: #00a8bf;
+  color: white;
+  cursor: pointer;
 }
