@@ -1,14 +1,17 @@
-#root {
+/* #root {
   width: 100vw;
   margin: 0;
   display: flex;
   flex: 1;
   align-items: center;
   /* padding: 1rem; */
-}
+/* } */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap");
+
 .page {
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
   /* justify-content: center; */
   /* align-items: center; */
+  font-family: "Inter", sans-serif;
 }

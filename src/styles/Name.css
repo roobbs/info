@@ -1,0 +1,38 @@
+.home {
+  background-color: #081528;
+  padding: 1rem 10rem;
+  padding-top: 8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.homeName {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+}
+.picture {
+  border-radius: 100%;
+  background-color: white;
+  border: 5px solid #00e0ff;
+  height: 13rem;
+  width: 13rem;
+}
+.text {
+  color: white;
+  font-size: 2.5rem;
+}
+.boldText {
+  color: #00e0ff;
+  font-size: 4rem;
+}
+.homeButtons {
+  display: flex;
+  gap: 2rem;
+}
+.homeBtn {
+  background-color: #00e0ff;
+  color: #081528;
+  padding: 0.5rem;
+  border-radius: 10px;
+}

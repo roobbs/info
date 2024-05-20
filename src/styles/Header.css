@@ -7,6 +7,8 @@
   gap: 10px;
   border-bottom: 1px solid white;
   padding: 5px 3rem;
+  position: sticky;
+  top: 0px;
 }
 .headerName {
   display: flex;
@@ -29,7 +31,7 @@
 }
 .headerItems li {
   font-weight: 600;
-  transition: background-color 0.5s;
+  transition: background-color 0.35s;
   padding: 5px;
   border-radius: 8px;
 }
