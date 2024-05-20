@@ -1,8 +1,8 @@
 import React from "react";
-import "../styles/Name.css";
+import "../styles/Home.css";
 import Stack from "./Stack";
 
-export default function Name() {
+export default function Home() {
   return (
     <div className="home">
       <div className="homeName">

@@ -1,14 +1,14 @@
 import "./styles/App.css";
 import Projects from "./components/Projects";
 import Header from "./components/Header";
-import Name from "./components/name";
+import Home from "./components/Home";
 
 export default function App() {
   return (
-    <div className="page">
+    <>
       <Header />
-      <Name />
+      <Home />
       <Projects />
-    </div>
+    </>
   );
 }

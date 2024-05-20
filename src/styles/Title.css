@@ -1,0 +1,14 @@
+.titleContainer {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  font-size: 2.5rem;
+  border-bottom: 2px solid white;
+  width: min-content;
+  padding: 0rem 2rem;
+  color: #00e0ff;
+}
+.point {
+  color: white;
+  font-weight: 900;
+}

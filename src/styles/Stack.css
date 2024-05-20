@@ -1,52 +1,22 @@
 .tools {
+  padding: 4rem 0rem;
   font-size: 2rem;
-  color: white;
-  font-weight: 700;
-  letter-spacing: 3px;
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  padding: 4rem 15rem;
 }
 .toolsContainer {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  gap: 1.8rem;
+  gap: 2rem;
 }
 .toolImg {
-  height: 7rem;
-  transition: transform 1s, border-color 1s;
-  padding: 0.4rem;
+  height: 3rem;
+  transition: transform 0.5s;
   border-radius: 10px;
-  border: 2px solid transparent;
+  background-color: transparent;
 }
 .toolImg:hover {
-  transform: scale(1.1);
-  border-color: rgb(0, 209, 213);
-}
-@media only screen and (max-width: 1000px) {
-  .tools {
-    gap: 1.5rem;
-    padding: 4rem 5rem;
-    overflow: hidden;
-  }
-}
-@media only screen and (max-width: 800px) {
-  .tools {
-    gap: 1.5rem;
-    padding: 4rem 1.5rem;
-    overflow: hidden;
-  }
-  .tool:first-child {
-    padding: 1rem;
-  }
-  .toolsContainer {
-    gap: 1rem;
-  }
-  .toolImg {
-    height: 4rem;
-    padding: 0.4rem;
-    border: 1px solid transparent;
-  }
+  transform: scale(1.2);
 }

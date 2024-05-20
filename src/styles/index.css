@@ -1,14 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap");
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #191750;
+  background-color: #008950;
 }
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
+  padding: 0;
+  /* display: flex; */
+  /* place-items: center; */
+  /* min-width: 320px; */
   min-height: 100vh;
 }
