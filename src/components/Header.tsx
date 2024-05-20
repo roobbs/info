@@ -28,7 +28,7 @@ export default function Header() {
             to="home"
             spy={true}
             smooth={true}
-            offset={-70}
+            offset={0}
             duration={500}
             className={activeSection === "home" ? "active" : ""}
             onSetActive={() => setActiveSection("home")}
@@ -41,7 +41,7 @@ export default function Header() {
             to="projects"
             spy={true}
             smooth={true}
-            offset={-70}
+            offset={0}
             duration={500}
             className={activeSection === "projects" ? "active" : ""}
             onSetActive={() => setActiveSection("projects")}
@@ -49,8 +49,32 @@ export default function Header() {
             Projects
           </ScrollLink>
         </li>
-        <li>About</li>
-        <li>Contact</li>
+        <li>
+          <ScrollLink
+            to="about"
+            spy={true}
+            smooth={true}
+            offset={0}
+            duration={500}
+            className={activeSection === "about" ? "active" : ""}
+            onSetActive={() => setActiveSection("about")}
+          >
+            About
+          </ScrollLink>
+        </li>
+        <li>
+          <ScrollLink
+            to="contact"
+            spy={true}
+            smooth={true}
+            offset={0}
+            duration={500}
+            className={activeSection === "contact" ? "active" : ""}
+            onSetActive={() => setActiveSection("contact")}
+          >
+            Contact
+          </ScrollLink>
+        </li>
       </ul>
     </div>
   );

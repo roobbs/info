@@ -1,0 +1,23 @@
+.aboutSection {
+  background-color: #081528;
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+  padding: 4rem 10rem;
+  padding-bottom: 10rem;
+}
+.aboutContainer {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  /* justify-content: space-between; */
+  gap: 3rem;
+}
+.aboutDescription {
+  /* color: black; */
+  font-size: 1.3rem;
+}
+.aboutPic {
+  width: 100%;
+  height: 100%;
+  background-color: grey;
+}
