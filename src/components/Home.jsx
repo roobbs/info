@@ -4,7 +4,7 @@ import Stack from "./Stack";
 
 export default function Home() {
   return (
-    <div className="home">
+    <section className="home" id="home">
       <div className="homeName">
         <div>
           <div className="text">Hi, I'm Carlos Salmerón</div>
@@ -32,6 +32,6 @@ export default function Home() {
         </a>
       </div>
       <Stack />
-    </div>
+    </section>
   );
 }

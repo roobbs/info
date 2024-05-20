@@ -54,4 +54,4 @@ export default function ProjectCard({
     </article>
   );
 }
-//claro que tengo experiencia, solo no he tenido la oprtunidad de trabajar con empresa como desarrollador
+//claro que tengo experiencia, solo no he tenido la oprtunidad de trabajar con empresas como desarrollador

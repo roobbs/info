@@ -5,7 +5,7 @@ import Title from "./Title.tsx";
 
 export default function Projects() {
   return (
-    <div className="projectsContainer">
+    <section className="projectsContainer" id="projects">
       <Title title={"Projects"} />
       <div className="projects">
         {info.map((project, index) => (
@@ -22,6 +22,6 @@ export default function Projects() {
           />
         ))}
       </div>
-    </div>
+    </section>
   );
 }

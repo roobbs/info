@@ -12,6 +12,7 @@
   top: 0px;
   z-index: 2;
 }
+
 .headerName {
   display: flex;
   gap: 1rem;
@@ -31,15 +32,21 @@
   margin: 0;
   padding: 0;
 }
-.headerItems li {
+.headerItems li a {
   font-weight: 600;
   transition: background-color 0.35s;
   padding: 5px;
   border-radius: 8px;
+  /* text-decoration: none; */
 }
 
-.headerItems li:hover {
+.headerItems li a:hover {
   background-color: #00a8bf;
   color: white;
   cursor: pointer;
+}
+
+.headerItems a.active {
+  background-color: transparent;
+  color: #00a8bf;
 }
