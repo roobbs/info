@@ -9,6 +9,7 @@ interface ProjectCardProps {
   language: string[];
   repo: string;
   website: string;
+  reverse: boolean;
 }
 
 export default function ProjectCard({
@@ -19,16 +20,21 @@ export default function ProjectCard({
   language,
   repo,
   website,
+  reverse,
 }: ProjectCardProps) {
   return (
-    <article className="projectCard">
+    <article className={reverse ? "projectCard" : "projectCardReverse"}>
       <div className="imgView">
-        <div className="projectTitle">{title}</div>
-        <img src={mobileView} alt="pr" className="mobileImg" />
+        <img
+          src={mobileView}
+          alt="pr"
+          className={reverse ? "mobileImg" : "mobileImgReverse"}
+        />
         <img src={view} alt="pr" className="deskImg" />
       </div>
-      <div className="description">{desc}</div>
-      <div className="squares">
+      <div className="projectInfo">
+        <div className="projectTitle">{title}</div>
+        <div className="description">{desc}</div>
         <div className="languagesView">
           {language.map((l, index) => {
             return (

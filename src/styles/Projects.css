@@ -1,10 +1,11 @@
-.projects {
+.projectsContainer {
+  background-color: #070c1d;
   display: flex;
   flex-direction: column;
-  gap: 5rem;
+  gap: 3rem;
+  padding: 4rem 10rem;
 }
-.projectsTitle {
-  font-size: 2rem;
-  font-weight: 700;
-  letter-spacing: 3px;
+.projects {
+  display: grid;
+  gap: 2rem;
 }

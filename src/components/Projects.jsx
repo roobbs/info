@@ -1,13 +1,14 @@
 import info from "../projects.js";
 import ProjectCard from "./ProjectCard";
 import "../styles/Projects.css";
+import Title from "./Title.tsx";
 
 export default function Projects() {
   return (
-    <div className="container">
-      <div className="projectsTitle">My projects:</div>
+    <div className="projectsContainer">
+      <Title title={"Projects"} />
       <div className="projects">
-        {info.map((project) => (
+        {info.map((project, index) => (
           <ProjectCard
             key={project.id}
             title={project.title}
@@ -17,6 +18,7 @@ export default function Projects() {
             language={project.language}
             repo={project.repo}
             website={project.website}
+            reverse={index % 2 === 0}
           />
         ))}
       </div>
