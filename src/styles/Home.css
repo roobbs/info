@@ -1,4 +1,4 @@
-.home {
+.homeSection {
   background-color: #081528;
   padding: 6rem 10rem;
   display: flex;
@@ -9,7 +9,6 @@
   display: flex;
   flex: 1;
   gap: 3rem;
-  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
 }
@@ -54,4 +53,37 @@
 }
 .homeBtn:hover .icon {
   color: #00e0ff;
+}
+@media (max-width: 1134px) {
+  .homeSection {
+    padding: 4rem 6rem;
+    gap: 3rem;
+  }
+}
+@media (max-width: 1000px) {
+  .homeSection {
+    padding: 4rem 4rem;
+    gap: 3rem;
+  }
+  .picture {
+    height: 12rem;
+    width: 12rem;
+  }
+}
+@media (max-width: 930px) {
+  .homeSection {
+    padding: 3rem 3rem;
+    gap: 2rem;
+  }
+  .homeName {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .text {
+    font-size: 2rem;
+  }
+  .boldText {
+    font-size: 3rem;
+  }
 }
