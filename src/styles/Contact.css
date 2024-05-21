@@ -83,3 +83,17 @@ button:hover {
   color: #081528;
   background-color: #00e0ff;
 }
+@media (max-width: 1025px) {
+  .contactSection {
+    padding: 4rem 5rem;
+    padding-bottom: 5rem;
+  }
+}
+@media (max-width: 820px) {
+  .contactContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    /* align-items: center; */
+  }
+}
