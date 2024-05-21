@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 import "../styles/Header.css";
 import { Link as ScrollLink, Events } from "react-scroll";
 import { IoIosGitMerge } from "react-icons/io";
+import { MdMenu } from "react-icons/md";
+import { IoClose } from "react-icons/io5";
 
 export default function Header() {
   const [activeSection, setActiveSection] = useState("home");
@@ -22,60 +24,62 @@ export default function Header() {
         <IoIosGitMerge size={30} />
         <div>roobbs</div>
       </div>
-      <ul className="headerItems">
-        <li>
-          <ScrollLink
-            to="home"
-            spy={true}
-            smooth={true}
-            offset={0}
-            duration={500}
-            className={activeSection === "home" ? "active" : ""}
-            onSetActive={() => setActiveSection("home")}
-          >
-            Home
-          </ScrollLink>
-        </li>
-        <li>
-          <ScrollLink
-            to="projects"
-            spy={true}
-            smooth={true}
-            offset={0}
-            duration={500}
-            className={activeSection === "projects" ? "active" : ""}
-            onSetActive={() => setActiveSection("projects")}
-          >
-            Projects
-          </ScrollLink>
-        </li>
-        <li>
-          <ScrollLink
-            to="about"
-            spy={true}
-            smooth={true}
-            offset={0}
-            duration={500}
-            className={activeSection === "about" ? "active" : ""}
-            onSetActive={() => setActiveSection("about")}
-          >
-            About
-          </ScrollLink>
-        </li>
-        <li>
-          <ScrollLink
-            to="contact"
-            spy={true}
-            smooth={true}
-            offset={0}
-            duration={500}
-            className={activeSection === "contact" ? "active" : ""}
-            onSetActive={() => setActiveSection("contact")}
-          >
-            Contact
-          </ScrollLink>
-        </li>
-      </ul>
+
+      <input type="checkbox" id="check" />
+      <label htmlFor="check" className="headerIcons">
+        <MdMenu className="menuIcon" size={40} />
+        <IoClose className="closeIcon" size={40} />
+      </label>
+
+      <nav className="headerItems">
+        <ScrollLink
+          to="home"
+          spy={true}
+          smooth={true}
+          offset={0}
+          duration={500}
+          className={activeSection === "home" ? "active" : ""}
+          onSetActive={() => setActiveSection("home")}
+        >
+          Home
+        </ScrollLink>
+
+        <ScrollLink
+          to="projects"
+          spy={true}
+          smooth={true}
+          offset={0}
+          duration={500}
+          className={activeSection === "projects" ? "active" : ""}
+          onSetActive={() => setActiveSection("projects")}
+        >
+          Projects
+        </ScrollLink>
+
+        <ScrollLink
+          to="about"
+          spy={true}
+          smooth={true}
+          offset={0}
+          duration={500}
+          className={activeSection === "about" ? "active" : ""}
+          onSetActive={() => setActiveSection("about")}
+        >
+          About
+        </ScrollLink>
+
+        <ScrollLink
+          to="contact"
+          spy={true}
+          smooth={true}
+          offset={0}
+          duration={500}
+          className={activeSection === "contact" ? "active" : ""}
+          onSetActive={() => setActiveSection("contact")}
+        >
+          Contact
+        </ScrollLink>
+      </nav>
     </div>
   );
 }
