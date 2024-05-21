@@ -110,7 +110,7 @@ button:hover {
   }
   .form {
     align-self: center;
-    width: 70%;
+    /* width: 70%; */
   }
   .info {
     font-size: 1rem;
