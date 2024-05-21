@@ -1,5 +1,4 @@
 .contactSection {
-  /* height: 70vh; */
   background-color: #070c1d;
   display: flex;
   flex-direction: column;
@@ -112,5 +111,8 @@ button:hover {
   .form {
     align-self: center;
     width: 70%;
+  }
+  .info {
+    font-size: 1rem;
   }
 }

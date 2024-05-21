@@ -12,3 +12,8 @@
   color: white;
   font-weight: 900;
 }
+@media (max-width: 800px) {
+  .titleContainer {
+    font-size: 2rem;
+  }
+}
