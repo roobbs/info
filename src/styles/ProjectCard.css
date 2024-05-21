@@ -50,9 +50,7 @@
 .mobileImg,
 .mobileImgReverse {
   height: 60%;
-  grid-area: span 2;
   border-radius: 10px;
-  transition: transform 1s ease, border-color 0.7s;
   position: absolute;
   bottom: -1rem;
   right: -1rem;
@@ -137,5 +135,15 @@ a {
     display: flex;
     flex-direction: column-reverse;
     gap: 2rem;
+    border-bottom: 1px solid #00e0ff;
+  }
+  /* .mobileImg, */
+  .mobileImgReverse {
+    bottom: -1rem;
+    left: auto;
+  }
+  .projectCard:hover,
+  .projectCardReverse:hover {
+    border-top-color: transparent;
   }
 }
