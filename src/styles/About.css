@@ -8,18 +8,22 @@
 }
 .aboutContainer {
   display: grid;
-  grid-template-columns: 1.5fr 1fr;
-  /* justify-content: space-between; */
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
   gap: 3rem;
 }
 .aboutDescription {
   /* color: black; */
   font-size: 1.3rem;
 }
+.secondText {
+  grid-column: span 2;
+}
 .aboutPic {
   width: 100%;
-  height: 100%;
-  background-color: grey;
+  border-radius: 10px;
+  /* height: 100%; */
+  /* background-color: grey; */
 }
 @media (max-width: 1030px) {
   .aboutSection {
