@@ -1,6 +1,8 @@
 import React from "react";
 import "../styles/Home.css";
 import Stack from "./Stack";
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 
 export default function Home() {
   return (
@@ -20,7 +22,8 @@ export default function Home() {
           target="_blank"
           rel="noreferrer"
         >
-          Github
+          <FaGithub className="icon" />
+          <div>Github</div>
         </a>
         <a
           className="homeBtn"
@@ -28,7 +31,8 @@ export default function Home() {
           target="_blank"
           rel="noreferrer"
         >
-          Linkedin
+          <FaLinkedin className="icon" />
+          <div>Linkedin</div>
         </a>
       </div>
       <Stack />

@@ -1,5 +1,7 @@
 import React from "react";
 import "../styles/ProjectCard.css";
+import { IoIosLink } from "react-icons/io";
+import { LiaLaptopCodeSolid } from "react-icons/lia";
 
 interface ProjectCardProps {
   title: string;
@@ -43,11 +45,18 @@ export default function ProjectCard({
           })}
         </div>
         <div className="buttonsView">
-          <a href={repo} target="_blank" rel="noreferrer">
-            <button className="code">Code</button>
+          <a href={repo} target="_blank" rel="noreferrer" className="code">
+            <LiaLaptopCodeSolid className="projectIcon" />
+            <div>Code</div>
           </a>
-          <a href={website} target="_blank" rel="noreferrer">
-            <button className="website">See Website</button>
+          <a
+            href={website}
+            target="_blank"
+            rel="noreferrer"
+            className="website"
+          >
+            <IoIosLink className="projectIcon" />
+            <div>See website</div>
           </a>
         </div>
       </div>

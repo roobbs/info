@@ -1,9 +1,10 @@
 .tools {
-  padding: 4rem 0rem;
+  /* padding: 4rem 0rem; */
   font-size: 2rem;
+  padding-top: 2rem;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 4rem;
 }
 .toolsContainer {
   display: flex;
