@@ -21,3 +21,26 @@
   height: 100%;
   background-color: grey;
 }
+@media (max-width: 1030px) {
+  .aboutSection {
+    padding: 4rem 6rem;
+    gap: 3rem;
+  }
+}
+@media (max-width: 910px) {
+  .aboutSection {
+    padding: 4rem 4rem;
+    gap: 3rem;
+    /* padding-bottom: 5rem; */
+  }
+  .aboutContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 850px) {
+  .aboutSection {
+    padding: 3rem 3rem;
+  }
+}

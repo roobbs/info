@@ -10,8 +10,8 @@ export default function App() {
     <>
       <Header />
       {/* <Home />
-      <Projects />
-      <About /> */}
+      <Projects />*/}
+      <About />
       <Contact />
     </>
   );

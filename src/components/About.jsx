@@ -7,10 +7,11 @@ export default function About() {
       <Title title={"About me"} />
       <div className="aboutContainer">
         <div className="aboutDescription">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum, quo
-          quasi repudiandae facere accusamus reiciendis ipsa asperiores magni
-          eos, facilis quae eaque ratione, recusandae qui eligendi laboriosam
-          alias distinctio unde!
+          As a self-taught enthusiast with a profound interest in technology and
+          programming, I am dedicating myself to honing my skills through
+          continuous learning and adaptation to this industry. <br />
+          <br /> I like collaborative environments, where I can contribute my
+          knowledge while learning from others (this is very important to me).
         </div>
         <div className="aboutPic">pic</div>
       </div>
