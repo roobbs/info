@@ -115,3 +115,27 @@
 a {
   text-decoration: inherit;
 }
+
+/* @media (max-width: 1030px) {
+  .projectsSection {
+    padding: 4rem 6rem;
+    gap: 3rem;
+  }
+}
+@media (max-width: 910px) {
+  .projectsSection {
+    padding: 4rem 4rem;
+    gap: 3rem;
+  }
+  .projects {
+    gap: 3rem;
+  }
+} */
+@media (max-width: 850px) {
+  .projectCard,
+  .projectCardReverse {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 2rem;
+  }
+}

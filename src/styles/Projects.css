@@ -1,4 +1,4 @@
-.projectsContainer {
+.projectsSection {
   background-color: #070c1d;
   display: flex;
   flex-direction: column;
@@ -8,4 +8,27 @@
 .projects {
   display: grid;
   gap: 5rem;
+}
+@media (max-width: 1030px) {
+  .projectsSection {
+    padding: 4rem 6rem;
+    gap: 3rem;
+  }
+}
+@media (max-width: 910px) {
+  .projectsSection {
+    padding: 4rem 4rem;
+    gap: 3rem;
+  }
+  .projects {
+    gap: 3rem;
+  }
+}
+@media (max-width: 850px) {
+  .projectsSection {
+    padding: 3rem 3rem;
+  }
+  .projects {
+    gap: 2rem;
+  }
 }

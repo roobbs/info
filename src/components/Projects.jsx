@@ -5,7 +5,7 @@ import Title from "./Title.tsx";
 
 export default function Projects() {
   return (
-    <section className="projectsContainer" id="projects">
+    <section className="projectsSection" id="projects">
       <Title title={"Projects"} />
       <div className="projects">
         {info.map((project, index) => (
