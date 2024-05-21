@@ -2,6 +2,9 @@ import "../styles/Contact.css";
 import React, { useRef } from "react";
 import Title from "./Title";
 import emailjs from "@emailjs/browser";
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa6";
+import { MdEmail } from "react-icons/md";
 
 export default function Contact() {
   const form = useRef();
@@ -29,7 +32,29 @@ export default function Contact() {
       <div className="contactContainer">
         <div className="contactInfo">
           <div>Don't be shy, and leave me a message :)</div>
-          <div>icon asdfsgas</div>
+          <div className="info">
+            <MdEmail size={30} className="icon" />
+            <div>carlossalmeroncabrera@gmail.com</div>
+          </div>
+          <a
+            className="info"
+            href="https://github.com/roobbs"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaGithub size={30} className="icon" />
+            <div>roobbs</div>
+          </a>
+          <div className="info">
+            <FaLinkedin
+              size={30}
+              className="icon"
+              href="https://github.com/roobbs"
+              target="_blank"
+              rel="noopener noreferrer"
+            />
+            <div>Carlos Salmerón</div>
+          </div>
         </div>
         <form className="form" ref={form} onSubmit={sendEmail}>
           <div>

@@ -16,6 +16,24 @@
   flex-direction: column;
   gap: 2rem;
 }
+.info {
+  display: flex;
+  gap: 1rem;
+  font-size: 1.2rem;
+  width: fit-content;
+  border-radius: 10px;
+  padding: 10px;
+  border: 2px solid transparent;
+  transition: border-color 0.3s;
+  color: white;
+}
+.info:hover {
+  border-color: #00e1ff5a;
+  cursor: pointer;
+}
+.info:hover .icon {
+  color: #00e0ff;
+}
 .form {
   background-color: #081528;
   border: 1px solid white;
@@ -41,18 +59,27 @@ textarea {
   padding: 10px 20px;
   color: white;
   resize: vertical;
+  font-family: Inter;
+  font-size: 1rem;
 }
 input::placeholder,
 textarea::placeholder {
   color: rgb(190, 190, 190);
   text-align: center;
   font-family: Inter;
+  font-size: 1rem;
 }
 button {
   align-self: center;
   padding: 0.5rem 1rem;
   border-radius: 10px;
-  background-color: #00e0ff;
-  color: #081528;
+  background-color: #00e1ff5a;
+  color: white;
   font-size: 1.2rem;
+  border: 1px solid #00e0ff;
+  transition: color 0.3s, background-color 0.3s;
+}
+button:hover {
+  color: #081528;
+  background-color: #00e0ff;
 }
