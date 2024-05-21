@@ -2,10 +2,10 @@
   background-color: #070c1d;
   display: flex;
   flex-direction: column;
-  gap: 3rem;
+  gap: 4rem;
   padding: 4rem 10rem;
 }
 .projects {
   display: grid;
-  gap: 2rem;
+  gap: 5rem;
 }

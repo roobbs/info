@@ -1,8 +1,6 @@
 .header {
   background-color: #070c1d;
   display: flex;
-  /* flex: 1; */
-  /* width: 100%; */
   align-items: center;
   justify-content: space-between;
   gap: 10px;
@@ -16,10 +14,8 @@
 .headerName {
   display: flex;
   gap: 1rem;
-}
-.myName {
-  color: #43ecae;
-  font-weight: 900;
+  align-items: center;
+  color: #86ffcc;
   letter-spacing: 1px;
   font-size: 1.5rem;
   font-family: monospace;
@@ -33,20 +29,20 @@
   padding: 0;
 }
 .headerItems li a {
-  font-weight: 600;
-  transition: background-color 0.35s;
+  transition: background-color 0.3s, border-color 0.3s;
   padding: 5px;
   border-radius: 8px;
-  /* text-decoration: none; */
+  border: 1px solid transparent;
 }
 
 .headerItems li a:hover {
-  background-color: #00a8bf;
+  background-color: #00e1ff61;
+  border-color: #00e0ff;
   color: white;
   cursor: pointer;
 }
 
 .headerItems a.active {
   background-color: transparent;
-  color: #00a8bf;
+  color: #00e0ff;
 }

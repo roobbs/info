@@ -8,6 +8,14 @@
   grid-template-columns: 1fr 1fr;
   grid-template-areas: "item1 item2";
   gap: 2.5rem;
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.5s;
+  padding: 2rem 0rem;
+}
+.projectCard:hover,
+.projectCardReverse:hover {
+  border-color: #00e0ff;
 }
 .projectCardReverse {
   grid-template-areas: "item2 item1";

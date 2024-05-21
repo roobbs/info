@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
-import reactLogo from "../assets/react.svg";
 import "../styles/Header.css";
 import { Link as ScrollLink, Events } from "react-scroll";
+import { IoIosGitMerge } from "react-icons/io";
 
 export default function Header() {
   const [activeSection, setActiveSection] = useState("home");
@@ -19,8 +19,8 @@ export default function Header() {
   return (
     <div className="header">
       <div className="headerName">
-        <img src={reactLogo} className="logo react" alt="React logo" />
-        <div className="myName">roobbs</div>
+        <IoIosGitMerge size={30} />
+        <div>roobbs</div>
       </div>
       <ul className="headerItems">
         <li>
