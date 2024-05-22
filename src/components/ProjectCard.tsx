@@ -27,11 +27,13 @@ export default function ProjectCard({
   return (
     <article className={reverse ? "projectCard" : "projectCardReverse"}>
       <div className="imgView">
-        <img
-          src={mobileView}
-          alt="pr"
-          className={reverse ? "mobileImg" : "mobileImgReverse"}
-        />
+        {mobileView && (
+          <img
+            src={mobileView}
+            alt="pr"
+            className={reverse ? "mobileImg" : "mobileImgReverse"}
+          />
+        )}
         <img src={view} alt="pr" className="deskImg" />
       </div>
       <div className="projectInfo">

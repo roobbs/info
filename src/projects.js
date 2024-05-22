@@ -5,8 +5,8 @@ import html from "./assets/html.png";
 
 import weather from "./images/weather.png";
 import weatherMobile from "./images/weatherMobile.jpg";
-import etch from "./images/etch.png";
-import etchMobile from "./images/etchMobile.jpg";
+import athlead from "./images/athlead.png";
+// mobile athlead
 import memorick from "./images/memorick.png";
 import memorickMobile from "./images/memorickMobile.jpg";
 
@@ -25,10 +25,11 @@ export default [
   {
     id: 2,
     title: "Athlead",
-    view: etch,
-    mobileView: etchMobile,
-    description: "This is an E-commerce site build with react",
-    language: [javascript, react, css],
+    view: athlead,
+    mobileView: "",
+    description:
+      "Minimalist e-commerce site, where user can look items, add them to cart or favorites and navigate through different pages",
+    language: [react, javascript, css],
     repo: "https://github.com/roobbs/shopping-cart",
     website: "https://athlead.vercel.app/",
   },
