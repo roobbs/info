@@ -13,7 +13,7 @@ export default function Home() {
           <div className="boldText">Frontend Developer</div>
           <div className="text">That loves creating web apps.</div>
         </div>
-        <div className="picture">FOTO</div>
+        <div className="picture"></div>
       </div>
       <div className="homeButtons">
         <a
