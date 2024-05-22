@@ -10,8 +10,8 @@ export default function Home() {
       <div className="homeName">
         <div>
           <div className="text">Hi, I'm Carlos Salmerón</div>
-          <div className="boldText">Full Stack Developer</div>
-          <div className="text">Another text</div>
+          <div className="boldText">Frontend Developer</div>
+          <div className="text">That loves creating web apps.</div>
         </div>
         <div className="picture">FOTO</div>
       </div>
