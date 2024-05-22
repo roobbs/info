@@ -24,6 +24,16 @@ export default [
   },
   {
     id: 2,
+    title: "Athlead",
+    view: etch,
+    mobileView: etchMobile,
+    description: "This is an E-commerce site build with react",
+    language: [javascript, react, css],
+    repo: "https://github.com/roobbs/shopping-cart",
+    website: "https://athlead.vercel.app/",
+  },
+  {
+    id: 3,
     title: "Memorick Game",
     view: memorick,
     mobileView: memorickMobile,
@@ -32,16 +42,5 @@ export default [
     language: [react, javascript, css],
     repo: "https://github.com/roobbs/memory-card-app",
     website: "https://memory-card-roobbs.netlify.app",
-  },
-  {
-    id: 3,
-    title: "Etch a Sketch",
-    view: etch,
-    mobileView: etchMobile,
-    description:
-      "This project is a browser version of a sketchpad, just a pretty neat toy for you to enjoy",
-    language: [javascript, css, html],
-    repo: "https://github.com/roobbs/etch-a-sketch",
-    website: "https://roobbs.github.io/etch-a-sketch/",
   },
 ];

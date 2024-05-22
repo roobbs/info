@@ -49,7 +49,7 @@ export default function Contact() {
             <FaLinkedin
               size={30}
               className="icon"
-              href="https://github.com/roobbs"
+              href="https://linkedin.com/in/carlos-salmeron/"
               target="_blank"
               rel="noopener noreferrer"
             />

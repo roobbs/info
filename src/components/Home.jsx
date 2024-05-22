@@ -27,7 +27,7 @@ export default function Home() {
         </a>
         <a
           className="homeBtn"
-          href="https://github.com/roobbs"
+          href="https://linkedin.com/in/carlos-salmeron/"
           target="_blank"
           rel="noreferrer"
         >
