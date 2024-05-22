@@ -45,16 +45,16 @@ export default function Contact() {
             <FaGithub size={30} className="icon" />
             <div>roobbs</div>
           </a>
-          <div className="info">
-            <FaLinkedin
-              size={30}
-              className="icon"
-              href="https://linkedin.com/in/carlos-salmeron/"
-              target="_blank"
-              rel="noopener noreferrer"
-            />
+          <a
+            className="info"
+            size={30}
+            href="https://linkedin.com/in/carlos-salmeron/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaLinkedin className="icon" />
             <div>Carlos Salmerón</div>
-          </div>
+          </a>
         </div>
         <form className="form" ref={form} onSubmit={sendEmail}>
           <div>
