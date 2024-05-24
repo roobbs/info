@@ -11,6 +11,11 @@ import athlead from "./images/athlead.png";
 // mobile athlead
 import memorick from "./images/memorick.png";
 import memorickMobile from "./images/memorickMobile.jpg";
+//mobile
+import snap1 from "./images/snap1.jpg";
+import snap2 from "./images/snap2.jpg";
+import snap3 from "./images/snap3.jpg";
+import snap4 from "./images/snap4.jpg";
 
 export default {
   web: [
@@ -52,7 +57,7 @@ export default {
     {
       id: 1,
       title: "SnapPay Bank",
-      view: weather,
+      view: [snap1, snap2, snap3, snap4],
       description:
         "Crud mobile App made with react native to represent a bank app easy to use, with an attractive UI",
       language: [react, firebase, typescript],
