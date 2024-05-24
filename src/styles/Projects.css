@@ -4,10 +4,30 @@
   flex-direction: column;
   gap: 4rem;
   padding: 4rem 10rem;
+  position: relative;
 }
 .projects {
   display: grid;
   gap: 5rem;
+}
+.projectType {
+  color: #ffffff;
+  /* background-color: aliceblue; */
+  align-self: center;
+  border-bottom: 1px solid #00ffd1;
+  padding: 0rem 2rem;
+  display: flex;
+  gap: 0.2rem;
+  align-items: first baseline;
+  /* position: sticky;
+  top: 10%;
+  z-index: 3;
+  margin: 20px;
+  background-color: inherit; */
+}
+.projectPoint {
+  color: #00ffd1;
+  font-size: 1.5rem;
 }
 @media (max-width: 1030px) {
   .projectsSection {
