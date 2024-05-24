@@ -25,7 +25,7 @@ export default {
       view: weather,
       mobileView: weatherMobile,
       description:
-        "A complete web app where you can look for your city, with a nice and fast way of visualize your Weather information",
+        "Well designed web app to visualize accurate weather updates. Powered by WeatherAPI, this app offers an intuitive UI, making it easy to find and visualize weather information for your city.",
       language: [react, javascript, css],
       repo: "https://github.com/roobbs/react-weather",
       website: "https://reactweather-roobbs.netlify.app/",
@@ -36,7 +36,7 @@ export default {
       view: athlead,
       mobileView: "",
       description:
-        "Minimalist e-commerce site, where user can look items, add them to cart or favorites and navigate through different pages",
+        "minimalist e-commerce platform with a clean UI. Easily browse items, add them to your cart or favorites, and navigate effortlessly through various pages.",
       language: [react, javascript, css],
       repo: "https://github.com/roobbs/shopping-cart",
       website: "https://athlead.vercel.app/",
@@ -56,13 +56,12 @@ export default {
   mobile: [
     {
       id: 1,
-      title: "SnapPay Bank",
+      title: "SnapPay Bank - CRUD Mobile Application",
       view: [snap1, snap2, snap3, snap4],
       description:
-        "Crud mobile App made with react native to represent a bank app easy to use, with an attractive UI",
+        "Built with React Native and powered by Firebase, offers a user-friendly experience for managing your finances. Designed with an attractive and intuitive UI.",
       language: [react, firebase, typescript],
-      repo: "https://github.com/roobbs/react-weather",
-      website: "https://reactweather-roobbs.netlify.app/",
+      repo: "https://github.com/roobbs/snap-pay-bank",
     },
   ],
 };
