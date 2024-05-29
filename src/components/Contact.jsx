@@ -59,7 +59,14 @@ export default function Contact() {
         <form className="form" ref={form} onSubmit={sendEmail}>
           <div>
             <label htmlFor="name">Name:</label>
-            <input type="text" id="name" placeholder="Name" name="user_name" />
+            <input
+              type="text"
+              id="name"
+              placeholder="Name"
+              name="user_name"
+              required
+              minLength={3}
+            />
           </div>
           <div>
             <label htmlFor="email">Email:</label>
@@ -68,6 +75,7 @@ export default function Contact() {
               id="email"
               placeholder="Email"
               name="user_email"
+              required
             />
           </div>
           <div>
@@ -76,6 +84,8 @@ export default function Contact() {
               id="message"
               placeholder="Message"
               name="message"
+              required
+              minLength={15}
             ></textarea>
           </div>
           <button type="sumbit">Send</button>
