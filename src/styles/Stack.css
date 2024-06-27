@@ -10,7 +10,7 @@
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  gap: 2rem;
+  gap: 5rem;
 }
 .toolImg {
   height: 3rem;
@@ -20,4 +20,9 @@
 }
 .toolImg:hover {
   transform: scale(1.2);
+}
+
+.stackIcon {
+  padding-bottom: 10px;
+  border-bottom: 1px solid aqua;
 }
