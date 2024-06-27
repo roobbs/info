@@ -3,6 +3,7 @@ import "../styles/Home.css";
 import Stack from "./Stack";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
+import { SiCodewars } from "react-icons/si";
 
 export default function Home() {
   return (
@@ -10,8 +11,8 @@ export default function Home() {
       <div className="homeName">
         <div>
           <div className="text">Hi, I'm Carlos Salmerón</div>
-          <div className="boldText">Frontend Developer</div>
-          <div className="text">That loves creating web apps.</div>
+          <div className="boldText">Full Stack Developer</div>
+          <div className="text">Seeking to be the problem solver you need</div>
         </div>
         <div className="picture"></div>
       </div>
@@ -33,6 +34,15 @@ export default function Home() {
         >
           <FaLinkedin className="icon" />
           <div>Linkedin</div>
+        </a>
+        <a
+          className="homeBtn"
+          href="https://www.codewars.com/users/roobbs"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <SiCodewars className="icon" />
+          <div>Codewars</div>
         </a>
       </div>
       <Stack />
