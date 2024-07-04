@@ -1,11 +1,4 @@
 import "../styles/Stack.css";
-// import git from "../assets/git.png";
-// import html from "../assets/html.png";
-// import css from "../assets/css.png";
-// import js from "../assets/js.png";
-// import react from "../assets/react.svg";
-// import node from "../assets/node.png";
-// import mongo from "../assets/mongo.png";
 import Title from "./Title";
 
 import { FaGitAlt } from "react-icons/fa";
@@ -20,24 +13,36 @@ import { FaHtml5 } from "react-icons/fa";
 import { IoLogoFirebase } from "react-icons/io5";
 
 export default function Stack() {
-  // const tools = [git, js, react, node, html, css, mongo];
   return (
     <section className="tools">
       <Title title={"Stack"} />
-      <div className="toolsContainer">
-        {/* {tools.map((tool, index) => (
-          <img src={tool} className="toolImg" key={index} />
-        ))} */}
-        <FaGitAlt size={60} color="orangered" className="stackIcon" />
-        <IoLogoJavascript size={60} className="stackIcon" />
-        <FaPython size={60} className="stackIcon" />
-        <FaReact size={60} className="stackIcon" />
-        <FaNodeJs size={60} className="stackIcon" />
-        <SiExpress size={60} className="stackIcon" />
-        <SiMongodb size={60} className="stackIcon" />
-        <FaCss3Alt size={60} className="stackIcon" />
-        <FaHtml5 size={60} className="stackIcon" />
-        <IoLogoFirebase size={60} className="stackIcon" />
+      <div className="slider">
+        <div className="toolsContainer">
+          <FaGitAlt color="orangered" className="stackIcon stackIcon1" />
+          <IoLogoJavascript className="stackIcon stackIcon2" />
+          <FaPython className="stackIcon stackIcon3" />
+          <FaReact className="stackIcon stackIcon4" />
+          <FaNodeJs className="stackIcon stackIcon5" />
+          <SiExpress className="stackIcon stackIcon6" />
+          <SiMongodb className="stackIcon stackIcon7" />
+          <FaCss3Alt className="stackIcon stackIcon8" />
+          <FaHtml5 className="stackIcon stackIcon9" />
+          <IoLogoFirebase className="stackIcon stackIcon10" />
+        </div>
+      </div>
+      <div className="slider">
+        <div className="toolsContainer" data-reverse="true">
+          <FaGitAlt color="orangered" className="stackIcon stackIcon1" />
+          <IoLogoJavascript className="stackIcon stackIcon2" />
+          <FaPython className="stackIcon stackIcon3" />
+          <FaReact className="stackIcon stackIcon4" />
+          <FaNodeJs className="stackIcon stackIcon5" />
+          <SiExpress className="stackIcon stackIcon6" />
+          <SiMongodb className="stackIcon stackIcon7" />
+          <FaCss3Alt className="stackIcon stackIcon8" />
+          <FaHtml5 className="stackIcon stackIcon9" />
+          <IoLogoFirebase className="stackIcon stackIcon10" />
+        </div>
       </div>
     </section>
   );
