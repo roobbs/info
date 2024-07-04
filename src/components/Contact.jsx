@@ -29,9 +29,9 @@ export default function Contact() {
   return (
     <section id="contact" className="contactSection">
       <Title title={"Contact me"}></Title>
+      <div>Leave me a message or contact me here:</div>
       <div className="contactContainer">
         <div className="contactInfo">
-          <div>Don't be shy, and leave me a message :)</div>
           <div className="info">
             <MdEmail size={30} className="icon" />
             <div>carlossalmeroncabrera@gmail.com</div>
@@ -52,7 +52,7 @@ export default function Contact() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaLinkedin className="icon" />
+            <FaLinkedin size={30} className="icon" />
             <div>Carlos Salmerón</div>
           </a>
         </div>

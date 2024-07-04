@@ -17,6 +17,7 @@
 }
 .info {
   display: flex;
+  align-items: center;
   gap: 1rem;
   font-size: 1.2rem;
   width: fit-content;
@@ -103,10 +104,12 @@ button:hover {
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    /* align-items: center; */
   }
   .contactInfo {
-    align-self: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
   }
   .form {
     align-self: center;
