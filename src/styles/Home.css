@@ -5,6 +5,14 @@
   flex-direction: column;
   gap: 2rem;
 }
+@keyframes init {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
 .homeName {
   display: flex;
   flex: 1;
@@ -38,7 +46,7 @@
   align-self: center;
   background-image: url("../assets/profile-pic.png");
   background-size: cover;
-  animation: radious 6s infinite;
+  animation: radious 6s infinite, init 0.5s forwards;
 }
 .text {
   color: white;
@@ -47,6 +55,7 @@
 .boldText {
   color: #00e0ff;
   font-size: 3.5rem;
+  animation: init 0.5s forwards;
 }
 .homeButtons {
   display: flex;
