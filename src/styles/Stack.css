@@ -1,28 +1,127 @@
+:root {
+  --quantity: 10;
+  --seconds: 20s;
+  --icon-width: 110px;
+  --margin: 20px;
+}
+
 .tools {
-  /* padding: 4rem 0rem; */
   font-size: 2rem;
   padding-top: 2rem;
   display: flex;
   flex-direction: column;
   gap: 4rem;
 }
+.slider {
+  width: 100%;
+  overflow: hidden;
+  mask-image: linear-gradient(
+    to right,
+    transparent,
+    rgb(0, 0, 0) 10% 90%,
+    transparent
+  );
+}
+.slider:hover .stackIcon {
+  animation-play-state: paused !important ;
+}
+
 .toolsContainer {
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  gap: 5rem;
-}
-.toolImg {
-  height: 3rem;
-  transition: transform 0.5s;
-  border-radius: 10px;
-  background-color: transparent;
-}
-.toolImg:hover {
-  transform: scale(1.2);
+  position: relative;
+  width: 100%;
+  width: calc((var(--icon-width) + var(--margin)) * var(--quantity));
+  height: calc(var(--icon-width) + var(--margin));
+  overflow: hidden;
 }
 
 .stackIcon {
-  padding-bottom: 10px;
-  border-bottom: 1px solid aqua;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  width: var(--icon-width);
+  height: var(--icon-width);
+  animation: scroll var(--seconds) linear infinite;
+}
+.toolsContainer[data-reverse="true"] .stackIcon {
+  animation: reverseScroll var(--seconds) linear infinite;
+}
+.stackIcon:hover {
+  color: aqua;
+}
+@keyframes scroll {
+  from {
+    left: 100%;
+  }
+  to {
+    left: calc(var(--icon-width) * -1);
+  }
+}
+@keyframes reverseScroll {
+  from {
+    left: calc(var(--icon-width) * -1);
+  }
+  to {
+    left: 100%;
+  }
+}
+
+@media (max-width: 800px) {
+  :root {
+    --icon-width: 90px;
+  }
+}
+@media (max-width: 650px) {
+  :root {
+    --icon-width: 70px;
+  }
+}
+.stackIcon1 {
+  animation-delay: calc(
+    var(--seconds) / var(--quantity) * (var(--quantity) - 1) * -1
+  ) !important;
+}
+.stackIcon2 {
+  animation-delay: calc(
+    var(--seconds) / var(--quantity) * (var(--quantity) - 2) * -1
+  ) !important;
+}
+.stackIcon3 {
+  animation-delay: calc(
+    var(--seconds) / var(--quantity) * (var(--quantity) - 3) * -1
+  ) !important;
+}
+.stackIcon4 {
+  animation-delay: calc(
+    var(--seconds) / var(--quantity) * (var(--quantity) - 4) * -1
+  ) !important;
+}
+.stackIcon5 {
+  animation-delay: calc(
+    var(--seconds) / var(--quantity) * (var(--quantity) - 5) * -1
+  ) !important;
+}
+.stackIcon6 {
+  animation-delay: calc(
+    var(--seconds) / var(--quantity) * (var(--quantity) - 6) * -1
+  ) !important;
+}
+.stackIcon7 {
+  animation-delay: calc(
+    var(--seconds) / var(--quantity) * (var(--quantity) - 7) * -1
+  ) !important;
+}
+.stackIcon8 {
+  animation-delay: calc(
+    var(--seconds) / var(--quantity) * (var(--quantity) - 8) * -1
+  ) !important;
+}
+.stackIcon9 {
+  animation-delay: calc(
+    var(--seconds) / var(--quantity) * (var(--quantity) - 9) * -1
+  ) !important;
+}
+.stackIcon10 {
+  animation-delay: calc(
+    var(--seconds) / var(--quantity) * (var(--quantity) - 10) * -1
+  ) !important;
 }
