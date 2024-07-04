@@ -24,7 +24,7 @@
 .projectCardReverse .imgView {
   animation: blurRight linear both;
   animation-timeline: view();
-  animation-range: entry 10% cover 30%;
+  animation-range: entry 0% cover 30%;
 }
 @keyframes blurLeft {
   from {
