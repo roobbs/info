@@ -17,15 +17,17 @@ export default function Home() {
         <div className="picture"></div>
       </div>
       <div className="homeButtons">
-        <a
-          className="homeBtn"
-          href="https://github.com/roobbs"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <FaGithub className="icon" />
-          <div>Github</div>
-        </a>
+        <div className="animButton">
+          <a
+            className="homeBtn "
+            href="https://github.com/roobbs"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FaGithub className="icon" />
+            <div>Github</div>
+          </a>
+        </div>
         <a
           className="homeBtn"
           href="https://linkedin.com/in/carlos-salmeron/"
