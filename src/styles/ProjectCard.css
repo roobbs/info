@@ -1,6 +1,5 @@
 .projectCard,
 .projectCardReverse {
-  padding: 01rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-areas: "item1 item2";
@@ -27,10 +26,6 @@
     opacity: 1;
     transform: scale(1);
   }
-}
-.projectCard:hover,
-.projectCardReverse:hover {
-  border-color: #00e0ff;
 }
 .projectCardReverse {
   grid-template-areas: "item2 item1";
