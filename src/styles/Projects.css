@@ -32,10 +32,8 @@
   border-radius: 10px;
   border: 1px solid transparent;
   animation: title linear both;
-  /* animation-timeline: scroll(nearest);
-  animation-range: entry 20% contain 30%; */
   animation-timeline: view(block);
-  animation-range: contain 0% contain 50%;
+  animation-range: contain 0% contain 20%;
 }
 .projectPoint {
   color: #00ffd1;

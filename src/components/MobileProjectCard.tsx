@@ -23,8 +23,8 @@ export default function MobileProjectCard({
   return (
     <article className={reverse ? "projectCard" : "projectCardReverse"}>
       <div className="imgViewMobile">
-        {view.map((img) => (
-          <img src={img} alt="pr" className="deskImg" />
+        {view.map((img, index) => (
+          <img key={index} src={img} alt="pr" className="deskImg" />
         ))}
       </div>
       <div className="projectInfo">
