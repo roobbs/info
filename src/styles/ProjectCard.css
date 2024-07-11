@@ -140,6 +140,12 @@ a {
     bottom: -1rem;
     left: auto;
   }
+  .mobileImg,
+  .mobileImgReverse {
+    box-shadow: -5px -5px 3px rgba(0, 28, 77, 0.5);
+    bottom: -1rem;
+    right: -0.5rem;
+  }
   .projectCard:hover,
   .projectCardReverse:hover {
     border-top-color: transparent;
