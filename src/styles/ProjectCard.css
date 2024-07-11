@@ -59,20 +59,23 @@
 }
 .mobileImg,
 .mobileImgReverse {
-  height: 60%;
+  height: 80%;
   border-radius: 10px;
   position: absolute;
   bottom: -1rem;
   right: -1rem;
+  box-shadow: -5px -5px 3px rgba(0, 28, 77, 0.5);
 }
 .mobileImgReverse {
   bottom: -1rem;
   left: -1rem;
+  box-shadow: 5px -5px 3px rgba(0, 28, 77, 0.5);
 }
 .description {
   font-size: 1rem;
   text-align: center;
   color: white;
+  white-space: pre-line;
 }
 
 .languagesView {
