@@ -1,57 +1,57 @@
 import javascript from "./assets/js.png";
 import css from "./assets/css.png";
 import react from "./assets/react.svg";
-import html from "./assets/html.png";
 import firebase from "./assets/firebase.png";
 import typescript from "./assets/typescript.png";
-
+//frontend
 import weather from "./images/weather.png";
 import weatherMobile from "./images/weatherMobile.jpg";
 import athlead from "./images/athlead.png";
-// mobile athlead
-import memorick from "./images/memorick.png";
-import memorickMobile from "./images/memorickMobile.jpg";
+import athleadMobile from "./images/athleadMobile.jpg";
+// import memorick from "./images/memorick.png";
+// import memorickMobile from "./images/memorickMobile.jpg";
 //mobile
 import snap1 from "./images/snap1.jpg";
 import snap2 from "./images/snap2.jpg";
 import snap3 from "./images/snap3.jpg";
 import snap4 from "./images/snap4.jpg";
+//backend
 
 export default {
   web: [
     {
       id: 1,
-      title: "React Weather",
-      view: weather,
-      mobileView: weatherMobile,
-      description:
-        "Well designed web app to visualize accurate weather updates. Powered by WeatherAPI, this app offers an intuitive UI, making it easy to find and visualize weather information for your city.",
-      language: [react, javascript, css],
-      repo: "https://github.com/roobbs/react-weather",
-      website: "https://reactweather-roobbs.netlify.app/",
-    },
-    {
-      id: 2,
       title: "Athlead",
       view: athlead,
-      mobileView: "",
+      mobileView: athleadMobile,
       description:
-        "minimalist e-commerce platform with a clean UI. Easily browse items, add them to your cart or favorites, and navigate effortlessly through various pages.",
+        "Minimalist e-commerce platform with a clean UI. \n - Browse items by category \n - Add items to your cart or favorites \n - Navigate through various pages",
       language: [react, javascript, css],
       repo: "https://github.com/roobbs/shopping-cart",
       website: "https://athlead.vercel.app/",
     },
     {
-      id: 3,
-      title: "Memorick Game",
-      view: memorick,
-      mobileView: memorickMobile,
+      id: 2,
+      title: "React Weather",
+      view: weather,
+      mobileView: weatherMobile,
       description:
-        "This project is a memory card game to test your memory, you just need to start selecting your cards and remember not to click twice on the same card.",
+        "The app allows users to: \n - Search for any city \n - Select a city from search results \n - Automatically detect current location to display local weather \n -If location permission is not granted, app remebers your last search",
       language: [react, javascript, css],
-      repo: "https://github.com/roobbs/memory-card-app",
-      website: "https://memory-card-roobbs.netlify.app",
+      repo: "https://github.com/roobbs/react-weather",
+      website: "https://reactweather-roobbs.netlify.app/",
     },
+    // {
+    //   id: 3,
+    //   title: "Memorick Game",
+    //   view: memorick,
+    //   mobileView: memorickMobile,
+    //   description:
+    //     "This project is a memory card game to test your memory, you just need to start selecting your cards and remember not to click twice on the same card.",
+    //   language: [react, javascript, css],
+    //   repo: "https://github.com/roobbs/memory-card-app",
+    //   website: "https://memory-card-roobbs.netlify.app",
+    // },
   ],
   mobile: [
     {
