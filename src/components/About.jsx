@@ -1,23 +1,31 @@
 import "../styles/About.css";
 import Title from "./Title";
-import codeImg from "../assets/coding.webp";
+import { MdNavigateNext } from "react-icons/md";
+// import codeImg from "../assets/coding.webp";
 
 export default function About() {
+  const codeImg =
+    "https://github-readme-stats.vercel.app/api?username=roobbs&show_icons=true&locale=en&theme=tokyonight&rank_icon=percentile";
   return (
     <section id="about" className="aboutSection">
       <Title title={"About me"} />
       <div className="aboutContainer">
-        <div className="aboutDescription">
-          As a self-taught enthusiast with a profound interest in technology and
-          programming, I am dedicating myself to honing my skills through
-          continuous learning and adaptation to this industry.
+        <div className="aboutGithub">
+          <div className="aboutDescription">
+            Take a look at my Github profile stats!{" "}
+            <MdNavigateNext color="#00E0FF" size={30} />
+          </div>
+          <img src={codeImg} alt="codeImg" className="aboutPic" />
         </div>
-        <img src={codeImg} alt="codeImg" className="aboutPic" />
-        <div className="aboutDescription secondText">
-          I like collaborative environments, where I can contribute my knowledge
-          while learning from others (this is very important to me).
+        <div className="aboutDescription">
+          I have a deep passion for technology, I am committed to continuous
+          learning and improvement. My drive to create and improve fuels my
+          motivation and desire to try and embrace new challenges.
         </div>
       </div>
+      {/* <div className="aboutDescription">
+        If you want to know me better, <a href="">see my blog page</a>.
+      </div> */}
     </section>
   );
 }

@@ -12,18 +12,23 @@
   align-items: center;
   gap: 3rem;
 }
+.aboutGithub {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .aboutDescription {
-  /* color: black; */
   font-size: 1.3rem;
+}
+.aboutDescription:first-child {
+  display: flex;
+  align-items: center;
 }
 .secondText {
   grid-column: span 2;
 }
 .aboutPic {
   width: 100%;
-  border-radius: 10px;
-  /* height: 100%; */
-  /* background-color: grey; */
 }
 @media (max-width: 1030px) {
   .aboutSection {
