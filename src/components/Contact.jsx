@@ -33,7 +33,7 @@ export default function Contact() {
       <div className="contactContainer">
         <div className="contactInfo">
           <div className="info">
-            <MdEmail size={30} className="icon" />
+            <MdEmail size={30} className="contactIcon" />
             <div>carlossalmeroncabrera@gmail.com</div>
           </div>
           <a
@@ -42,7 +42,7 @@ export default function Contact() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaGithub size={30} className="icon" />
+            <FaGithub size={30} className="contactIcon" />
             <div>roobbs</div>
           </a>
           <a
@@ -52,7 +52,7 @@ export default function Contact() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaLinkedin size={30} className="icon" />
+            <FaLinkedin size={30} className="contactIcon" />
             <div>Carlos Salmerón</div>
           </a>
         </div>

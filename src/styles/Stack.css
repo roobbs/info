@@ -22,9 +22,9 @@
     transparent
   );
 }
-.slider:hover .stackIcon {
+/* .tools:hover .stackIcon {
   animation-play-state: paused !important ;
-}
+} */
 
 .toolsContainer {
   position: relative;
