@@ -29,6 +29,15 @@
 .aboutPic {
   width: 100%;
 }
+.githubStats {
+  border: 1px solid transparent;
+  display: flex;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+.githubStats:hover {
+  border-color: rgb(0, 255, 119);
+}
 .aboutButtons {
   padding: 1rem;
   display: flex;

@@ -6,7 +6,7 @@ import { SiLeetcode } from "react-icons/si";
 
 export default function About() {
   const codeImg =
-    "https://github-readme-stats.vercel.app/api?username=roobbs&show_icons=true&locale=en&theme=tokyonight&rank_icon=percentile";
+    "https://github-readme-stats.vercel.app/api?username=roobbs&show_icons=true&locale=en&theme=nightowl&rank_icon=percentile";
   return (
     <section id="about" className="aboutSection">
       <Title title={"About me"} />
@@ -21,7 +21,9 @@ export default function About() {
             Take a look at my Github profile stats!{" "}
             <MdNavigateNext color="#00E0FF" size={30} />
           </div>
-          <img src={codeImg} alt="codeImg" className="aboutPic" />
+          <a href="https://github.com/roobbs" className="githubStats">
+            <img src={codeImg} alt="codeImg" className="aboutPic" />
+          </a>
         </div>
       </div>
       <div className="aboutDescription">
