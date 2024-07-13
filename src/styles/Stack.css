@@ -74,6 +74,9 @@
   :root {
     --icon-width: 50px;
   }
+  .tools {
+    gap: 2rem;
+  }
 }
 .stackIcon1 {
   animation-delay: calc(
