@@ -28,15 +28,15 @@
 }
 .aboutPic {
   width: 100%;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 5px;
 }
 .githubStats {
-  border: 1px solid transparent;
   display: flex;
-  border-radius: 6px;
   transition: 0.3s;
 }
-.githubStats:hover {
-  border-color: rgb(0, 255, 119);
+.aboutPic:hover {
+  border-color: rgb(0, 251, 255);
 }
 .aboutButtons {
   padding: 1rem;

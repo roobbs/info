@@ -6,7 +6,7 @@ import { SiLeetcode } from "react-icons/si";
 
 export default function About() {
   const codeImg =
-    "https://github-readme-stats.vercel.app/api?username=roobbs&show_icons=true&locale=en&theme=nightowl&rank_icon=percentile";
+    "https://github-readme-stats.vercel.app/api?username=roobbs&show_icons=true&locale=en&theme=nightowl&rank_icon=percentile&hide_border=true";
   return (
     <section id="about" className="aboutSection">
       <Title title={"About me"} />
