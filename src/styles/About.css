@@ -4,7 +4,6 @@
   flex-direction: column;
   gap: 6rem;
   padding: 4rem 10rem;
-  padding-bottom: 10rem;
 }
 .aboutContainer {
   display: grid;
@@ -30,6 +29,13 @@
 .aboutPic {
   width: 100%;
 }
+.aboutButtons {
+  padding: 1rem;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
 @media (max-width: 1030px) {
   .aboutSection {
     padding: 4rem 6rem;
@@ -40,7 +46,6 @@
   .aboutSection {
     padding: 4rem 4rem;
     gap: 3rem;
-    /* padding-bottom: 5rem; */
   }
   .aboutContainer {
     display: flex;
