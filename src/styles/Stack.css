@@ -1,7 +1,7 @@
 :root {
   --quantity: 10;
   --seconds: 20s;
-  --icon-width: 110px;
+  --icon-width: 90px;
   --margin: 20px;
 }
 
@@ -67,12 +67,12 @@
 
 @media (max-width: 800px) {
   :root {
-    --icon-width: 90px;
+    --icon-width: 75px;
   }
 }
 @media (max-width: 650px) {
   :root {
-    --icon-width: 70px;
+    --icon-width: 50px;
   }
 }
 .stackIcon1 {
